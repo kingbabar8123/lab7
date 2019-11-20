@@ -1,6 +1,7 @@
+function init() {
 var today = new Date();
 var hourNow = today.getHours();
-var greeting = 'test';
+var greeting;
 
 if (hourNow > 18) {
   greeting = 'Its in the evening so there is lots of traffic in Chicago as of now.';
@@ -14,4 +15,8 @@ if (hourNow > 18) {
 
 
 var el = document.getElementById('banner');
-el.textContent = hourNow;
+el.textContent = greeting;
+
+}
+
+window.addEventListener('load', init);
