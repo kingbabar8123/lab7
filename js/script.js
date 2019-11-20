@@ -17,6 +17,11 @@ if (hourNow > 18) {
 var el = document.getElementById('banner');
 el.textContent = greeting;
 
+document.getElementById('button').addEventListener('click', function(){
+	alert('Babar Kamran:' + document.getElementById('textinput').value);
+});
+
+
 }
 
 window.addEventListener('load', init);

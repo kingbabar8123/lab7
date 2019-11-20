@@ -23,3 +23,6 @@ h1, h2, h3 {
 	margin-right: 50%;
 	margin-top: .5%;
 }
+#textinput {
+	font-weight: bold;
+}
