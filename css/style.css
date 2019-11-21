@@ -5,6 +5,7 @@ input {
 	text-align: center;
 	width: 20%;
 	font-size: 2em;
+	color: blue;
 }
 #center {
 	text-align: center;
@@ -25,4 +26,13 @@ h1, h2, h3 {
 }
 #textinput {
 	font-weight: bold;
+}
+#textoutput {
+	margin-top: .5%;
+	border-style: solid;
+	border-color: red;
+	color: blue;
+	text-align: center;
+	font-decoration: underline;
+	font-size: 2em;
 }
