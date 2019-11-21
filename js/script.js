@@ -6,8 +6,6 @@ document.getElementById('entrybutton').addEventListener('click', function(){
 	document.getElementById('textoutput').innerHTML = document.getElementById('entryinput').value;
 });
 
-
-
 }
  
 window.addEventListener('load', init);
